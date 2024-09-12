@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.content {
+  display: flex;
+  gap: 16px; 
+  justify-content: center; 
+  align-items: flex-start; 
+}
+
+.card {
+  background-color: black;
+  color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: 300px;
+  
+}
